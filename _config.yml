@@ -5,9 +5,10 @@ header-img: img/post-bg-desk.jpg
 email: dufeiyu@foxmail.com
 description: "Every failure is leading towards success."
 keyword: "DFY, DFY Blog, 杜菲雨的博客, dufeiyu, 菲雨, 建筑设计, 设计, design"
-url: "https://du-feiyu.github.io/"          # your host, for absolute URL
+url: "http://dufeiyu.top/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/Du-feiyu/Du-feiyu.github.io" # you code repository
+
 
 
 # Sidebar settings
@@ -25,6 +26,7 @@ github_username:    Du-feiyu
 facebook_username:  dufeiyu
 twitter_username:   dufeiyu
 #jianshu_username:   e71990ada2fd
+#linkedin_username:  firstname-lastname-idxxxx
 
 
 
