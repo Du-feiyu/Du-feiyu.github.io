@@ -105,12 +105,12 @@
                     <section class="visible-md visible-lg">
                         <hr><h5><a href="{{'https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral' | prepend: site.baseurl }}">又拍云</a></h5>
                         <div class="short-about">
-                            {% if site.RSS %}
-                                <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
+                            {% if site.sidebar-avatar %}
+                                <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
+                                    <img src="{{site.footer-avatar}}"/>
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-arrow-circle-right" style="font-size:48px;"></i>
                                     </span>
-                                    <img src="{{site.footer-avatar}}"/>
                                 </a>
                             {% endif %}
                             
