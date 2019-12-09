@@ -103,13 +103,13 @@
                      <!-- by DFY -->
                      <!-- Short About -->
                     <section class="visible-md visible-lg">
-                        <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">又拍云</a></h5>
+                        <hr><h5><a href="{{'https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral' | prepend: site.baseurl }}">又拍云</a></h5>
                         <div class="short-about">
-                            {% if site.sidebar-avatar %}
+                            {% if site.RSS %}
                                 <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
                                     <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="site.footer-avatar fa-stack-1x fa-inverse"></i>
+                                        <i class="fa fa-arrow-circle-right fa-stack-5x"></i>
+                                        <i class="{{site.footer-avatar}} fa-stack-3x fa-inverse"></i>
                                     </span>
                                     <img src="{{site.footer-avatar}}"/>
                                 </a>
