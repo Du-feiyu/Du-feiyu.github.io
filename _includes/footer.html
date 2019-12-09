@@ -107,12 +107,25 @@
                         <div class="short-about">
                             {% if site.sidebar-avatar %}
                                 <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                                    </span>
                                     <img src="{{site.footer-avatar}}"/>
                                 </a>
                             {% endif %}
-                            {% if site.sidebar-about-description %}
-                                <p>{{site.sidebar-about-description}}</p>
+                            
+                            {% if site.RSS %}
+                            <li>
+                                <a href="{{ "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" | prepend: site.baseurl }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class=img src="{{site.footer-avatar}}"></i>
+                                    </span>
+                                </a>
+                            </li>
                             {% endif %}
+                           
                 </ul>
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
