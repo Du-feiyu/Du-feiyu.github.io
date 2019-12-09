@@ -123,6 +123,17 @@ layout: default
                             </li>
                             {% endif %}
                             <!-- add jianshu add target = "_blank" to <a> by BY -->
+			    <!-- add upyun add target = "_blank" to <a> by DFY -->
+			    {% if site.upyun_username %}
+                            <li>
+                                <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa  fa-stack-1x fa-inverse">简</i>
+                                    </span>
+                                </a>
+                            </li>
+                            {% endif %}
                             {% if site.jianshu_username %}
                             <li>
                                 <a target="_blank" href="https://www.jianshu.com/u/{{ site.jianshu_username }}">
@@ -174,16 +185,6 @@ layout: default
                             </li>
                             {% endif %}
                             {% if site.github_username %}
-                            <li>
-                                <a target="_blank" href="https://github.com/{{ site.github_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-			    {% if site.github_username %}
                             <li>
                                 <a target="_blank" href="https://github.com/{{ site.github_username }}">
                                     <span class="fa-stack fa-lg">
